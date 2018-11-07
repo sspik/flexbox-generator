@@ -1,18 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="da428846-b60d-450e-b146-19f85078057a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/container.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/container.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/content/horizontalLine.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/content/horizontalLine.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/content/verticalLine.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/content/verticalLine.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/settings/box.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/settings/box.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/settings/parentbox.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/settings/parentbox.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/settings/settings.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/settings/settings.js" afterDir="false" />
-    </list>
+    <list default="true" id="da428846-b60d-450e-b146-19f85078057a" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -69,7 +58,7 @@
           <entry key="html" value="40" />
           <entry key="js" value="17600" />
           <entry key="json" value="4" />
-          <entry key="txt" value="1" />
+          <entry key="txt" value="19" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
@@ -78,7 +67,7 @@
           <entry key="HTML" value="40" />
           <entry key="JSON" value="4" />
           <entry key="JavaScript" value="17600" />
-          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="PLAIN_TEXT" value="19" />
         </counts>
       </usages-collector>
     </session>
@@ -88,8 +77,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/container.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="34" column="38" selection-start-line="34" selection-start-column="38" selection-end-line="34" selection-end-column="38" />
+            <state relative-caret-position="282">
+              <caret line="46" column="69" lean-forward="true" selection-start-line="46" selection-start-column="69" selection-end-line="46" selection-end-column="69" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -246,24 +235,6 @@
             <path>
               <item name="untitled" type="b2602c69:ProjectViewProjectNode" />
               <item name="untitled" type="462c0819:PsiDirectoryNode" />
-              <item name="build" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="untitled" type="b2602c69:ProjectViewProjectNode" />
-              <item name="untitled" type="462c0819:PsiDirectoryNode" />
-              <item name="build" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="untitled" type="b2602c69:ProjectViewProjectNode" />
-              <item name="untitled" type="462c0819:PsiDirectoryNode" />
-              <item name="build" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="untitled" type="b2602c69:ProjectViewProjectNode" />
-              <item name="untitled" type="462c0819:PsiDirectoryNode" />
               <item name="public" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -375,7 +346,7 @@
       <workItem from="1541405980872" duration="17725000" />
       <workItem from="1541431626597" duration="7108000" />
       <workItem from="1541481732933" duration="33656000" />
-      <workItem from="1541569051653" duration="22380000" />
+      <workItem from="1541569051653" duration="23035000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1541592622857</created>
@@ -384,15 +355,21 @@
       <option name="project" value="LOCAL" />
       <updated>1541592622858</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Final.. i think">
+      <created>1541603653833</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1541603653833</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="99332000" />
+    <option name="totallyTimeSpent" value="99987000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="0" width="1922" height="1050" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49598715" visible="true" weight="0.24986821" />
       <window_info id="Structure" order="1" sideWeight="0.5040128" side_tool="true" weight="0.24986821" />
@@ -423,7 +400,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="1" />
-    <option name="LAST_COMMIT_MESSAGE" value="1" />
+    <MESSAGE value="Final.. i think" />
+    <option name="LAST_COMMIT_MESSAGE" value="Final.. i think" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/node_modules/@material-ui/core/styles/withStyles.d.ts">
@@ -639,8 +617,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/container.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="34" column="38" selection-start-line="34" selection-start-column="38" selection-end-line="34" selection-end-column="38" />
+        <state relative-caret-position="282">
+          <caret line="46" column="69" lean-forward="true" selection-start-line="46" selection-start-column="69" selection-end-line="46" selection-end-column="69" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
