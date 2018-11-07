@@ -14,7 +14,7 @@ const styles = theme => ({
     parentBoxTitle: {
         margin: 8,
         display: 'flex',
-        flexDirection: 'row'
+        flexDirection: 'row',
     },
     parentBoxTitleText: {
         flex: '1 1 auto',
@@ -26,8 +26,8 @@ const styles = theme => ({
 });
 
 class PatentBox extends React.PureComponent{
-    constructor(props){
-        super(props);
+    constructor(){
+        super();
         this.handleClick = this.handleClick.bind(this);
     }
 
@@ -37,14 +37,13 @@ class PatentBox extends React.PureComponent{
 
     render(){
         const { classes } = this.props;
-
         return (
-            <div className={classes.parentBoxTitle} onClick={this.handleClick}>
+            <div className={classes.parentBoxTitle} onMouseDown={this.handleClick}>
                 <Typography
                     variant="h6"
                     component="h6"
                     align="left"
-                    onClick={this.handleClick}
+                    onMouseDown={this.handleClick}
                     className={classes.parentBoxTitleText}
                 >
                     Parent

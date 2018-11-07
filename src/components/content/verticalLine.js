@@ -44,7 +44,7 @@ const styles = theme => ({
 });
 
 
-class VerticalLine extends React.Component{
+class VerticalLine extends React.PureComponent{
 
     render(){
         const { classes } = this.props;

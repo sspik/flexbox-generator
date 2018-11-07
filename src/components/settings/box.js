@@ -53,14 +53,14 @@ class Box extends React.PureComponent{
             <Paper
                 className={classes.box}
                 elevation={active ? 5 : 1}
-                onClick={this.handleClick}
+                onMouseDown={this.handleClick}
             >
                 <Typography
                     align="left"
                     component="h6"
                     variant="h6"
                     className={classes.text}
-                    onClick={this.handleClick}
+                    onMouseDown={this.handleClick}
                 >
                     { this.props.name }
                 </Typography>
@@ -82,7 +82,6 @@ class Box extends React.PureComponent{
 Box.propTypes = {
     classes: PropTypes.object.isRequired,
     onActive: PropTypes.func.isRequired,
-    //styles: PropTypes.object.isRequired,
     onCopy: PropTypes.func.isRequired,
     onDelete: PropTypes.func.isRequired
 };

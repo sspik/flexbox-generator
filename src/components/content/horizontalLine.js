@@ -42,7 +42,7 @@ const styles = theme => ({
 });
 
 
-class HorizontalLine extends React.Component{
+class HorizontalLine extends React.PureComponent{
 
     render(){
         const { classes } = this.props;

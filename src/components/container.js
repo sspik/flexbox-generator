@@ -37,7 +37,7 @@ class Container extends React.Component {
                     id: parentBlockId,
                     active: true
                 },
-                boxes: genDefaultBoxes(4)
+                boxes: genDefaultBoxes(5)
             }
         };
         this.handleActive = this.handleActive.bind(this);
@@ -45,6 +45,7 @@ class Container extends React.Component {
         this.handleCopyBox = this.handleCopyBox.bind(this);
         this.handleDeleteBox = this.handleDeleteBox.bind(this);
         this.handleChangeStyles = this.handleChangeStyles.bind(this);
+        this.handleMoveBox = this.handleMoveBox.bind(this);
     }
 
 
@@ -127,6 +128,12 @@ class Container extends React.Component {
         this.setState({ blocks })
     }
 
+    handleMoveBox(boxes){
+        let blocks = { ...this.state.blocks };
+        blocks.boxes = boxes;
+        this.setState({ blocks })
+    }
+
     render(){
         const { classes } = this.props;
         const { blocks, activeBlock, activeBlockId } = this.state;
@@ -158,6 +165,7 @@ class Container extends React.Component {
                         activeBlock={activeBlock}
                         activeBlockId={activeBlockId}
                         onChangeStyles={this.handleChangeStyles}
+                        onMoveMox={this.handleMoveBox}
                     />
                 </Grid>
             </Grid>
